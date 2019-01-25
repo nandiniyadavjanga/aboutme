@@ -1,8 +1,8 @@
 # aboutme
 
 ## Repository links
-- [Web page](https://github.com/nandiniyadavjanga "My github web page")
-- [Source](https://nandiniyadavjanga.github.io/aboutme/ "My github source page")
+- [Source](https://github.com/nandiniyadavjanga "My github web page")
+- [Webpage](https://nandiniyadavjanga.github.io/aboutme/ "My github source page")
 
 ## About
 This aboutme repository shows information about the Github tools and resources that can be used.
