@@ -5,12 +5,12 @@
 - [Source](https://nandiniyadavjanga.github.io/aboutme/ "My github source page")
 
 ## About
-Aboutme repository shows information about the Github tools and resources that can be used.
+This aboutme repository shows information about the Github tools and resources that can be used.
 
 ## Recommended Tools
 
 1. [Github](https://github.com/ "https://github.com/"): GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code.
-1. [Github-release-notes](https://github.com/github-tools/github-release-notes "https://github.com/github-tools/github-release-notes"): Node module to create a release or a changelog from a tag and uses issues or commits to creating the release notes.
+1. [Github-release-notes](https://github.com/github-tools/github-release-notes "https://github.com/github-tools/github-release-notes"): It is a node module to create a release or a changelog from a tag and uses issues or commits to creating the release notes.
 1. [HTML](https://www.w3schools.com/html/ "https://www.w3schools.com/html/"): Hypertext Markup Language is the standard markup language for creating web pages and web applications.
 1. [Markdowm](https://en.wikipedia.org/wiki/Markdown "https://en.wikipedia.org/wiki/Markdown"): Markup is a lightweight markup language.
 1. [Java Script](https://www.w3schools.com/js/default.asp "https://www.w3schools.com/js/default.asp"): Java Script is one of teh most popular languages used on Github.
@@ -24,4 +24,4 @@ Aboutme repository shows information about the Github tools and resources that c
 ## Contributors
 Hi All, my name is Nandini Yadav Janga pursuing my master's in Applied Computer Science.
 
-![Image](https://www.pexels.com/photo/black-and-brown-short-haired-puppy-in-cup-39317/ "My Dog")
+![Image](https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2018/08/14210453/border-collie-puppy-sweet-near-shoe.jpg "My Dog")
