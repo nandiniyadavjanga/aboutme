@@ -8,6 +8,6 @@ I am from Hyderbad,India.I pursued my Bachelors in the stream of Electronics and
 
 I would like to see myself as a Software Developer. By the end of my graduation, I hope to gain all the required knowledge which helps me to progress in my career.
 
-My Github link is //github.com/nandiniyadavjanga
+My Github link is https://github.com/nandiniyadavjanga
  
 My Bitbucket link is https://bitbucket.org/nandiniyadavjanga/
