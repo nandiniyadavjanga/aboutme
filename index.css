@@ -1,0 +1,101 @@
+
+p  {color:turquoise}
+h1 {color:turquoise}
+h1  {color:turquoise}
+h1  {color:turquoise}
+
+hr {background-color: white}
+.container {
+    border-radius: 5px;
+    
+    padding: 5px;
+  }
+.inde_flex{
+    display: flex;
+}
+
+/* Twitter */
+.github {
+
+color: blue;
+}
+
+.linkedin {
+
+color: blue;
+}
+.facebook {
+    
+    color: blue;
+    }
+
+
+section{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: black;
+    border-style: solid;
+    border-radius: 2em;
+    border-color: rgb(236, 229, 229);
+    color: white;
+}
+.backgroundimage {
+        height: 100%;
+        position: relative;
+        opacity: 0.93;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* fixed in viewport */
+      }
+
+
+aside {
+        background-color: rgb(34, 32, 32);
+        color: white;
+        padding-top: 1em;
+}
+
+footer {color: white;
+        margin-bottom: .5em;
+}
+
+
+
+
+
+#profileimg {
+        opacity: 100%;
+}
+
+#brandimg {
+  height: 43px;
+  width: 43px;
+  background-color: #bbb;
+  color: black;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+     
+      
+      
+      
+      
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      
+      
+
+
+     
+      
