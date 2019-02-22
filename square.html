@@ -34,6 +34,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="square.html">Square</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="test.html">Qunit</a>
+                </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -58,14 +61,15 @@
                 <h4>Enter the number</h4>
                 <p>
                     <label>Number</label>
-                    <input id="inputnumber" type="number" oninput="square(this.value)" onchange="square(this.value)">
+                    <input id="inputnumber" type="text" oninput="square(this.value)" onchange="square(this.value)"><br>
+                    <input type="button" value="Calculate" onclick="calculate();"/>
                 </p>
             </section>
 
             <section class="col-md-9">
                 <h4>Squareroot of the above number is : </h4>
 
-                <p>Square of a number<span id="output"></span></p>
+                <p>Square of a number <span id="output"></span></p>
             </section>
 
         </article>
@@ -77,19 +81,40 @@
 
     <hr>
 
-    <footer>
+  
+     <script type="text/javascript">
+
+function isANumber(str){
+                return !/\D/.test(str);
+              }
+
+
+        function calculate() {
+        
+        const result = parseInt(document.getElementById("inputnumber").value);
+       
+
+        if (isANumber(result)){
+        document.getElementById("output").innerHTML = (result * result);
+        }
+        
+        else{
+            document.getElementById("output").innerHTML = "please enter the only numbers"
+        }
+        
+        }
+        </script> 
+        
+        <h2 id="submit" >Click me </h2>
+        <img src="" id="image" style="width: 100px;height:100px;"/>
+        <script src="./nadini.js">
+
+    </script> 
+     <footer>
 
         &copy; 2019 Nandini Yadav.
 
-    </footer>
-
-    <script>
-        function square(valNum) {
-            document.getElementById("output").innerHTML = valNum * valNum;
-
-        }
-    </script>
-
+    </footer>     
 
 </body>
 
