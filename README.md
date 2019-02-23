@@ -5,7 +5,7 @@
 - [Webpage](https://nandiniyadavjanga.github.io/aboutme/ "My github source page")
 
 ## About
-This aboutme repository shows information about the Github tools and resources that can be used.
+ aboutme repository shows information about the Github tools and resources that can be used.
 
 ## Recommended Tools
 
