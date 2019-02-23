@@ -11,6 +11,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 
     <title>Square</title>
 </head>
@@ -52,12 +59,12 @@
     <hr>
 
 
-    <main>
+    <main >
 
-        <article class="col-sm-9">
+        <article class="h1-responsive font-weight-bold text-center my-4" >
 
 
-            <section class="col-md-9">
+            <section >
                 <h4>Enter the number</h4>
                 <p>
                     <label>Number</label>
@@ -66,10 +73,10 @@
                 </p>
             </section>
 
-            <section class="col-md-9">
+            <section >
                 <h4>Squareroot of the above number is : </h4>
 
-                <p>Square of a number <span id="output"></span></p>
+                <p><span id="output"></span></p>
             </section>
 
         </article>
@@ -77,7 +84,7 @@
     </main>
 
 
-    <br>
+    
 
     <hr>
 
@@ -91,32 +98,34 @@ function isANumber(str){
 
         function calculate() {
         
-        const result = parseInt(document.getElementById("inputnumber").value);
-       
-
-        if (isANumber(result)){
-        document.getElementById("output").innerHTML = (result * result);
+        
+        localStorage.setItem("result", parseInt(document.getElementById("inputnumber").value));
+            
+            localStorage.setItem("ans", parseInt((localStorage.getItem("result"))) * parseInt(localStorage.getItem("result")));
+            if (isANumber(localStorage.getItem("result"))){
+                document.getElementById("output").innerHTML =   localStorage.getItem("ans");
         }
         
         else{
-            document.getElementById("output").innerHTML = "please enter the only numbers"
+            document.getElementById("output").innerHTML = "please enter numbers only"
         }
         
         }
         </script> 
         
-        <h2 id="submit" >Click me to generate a random quote </h2>
+        <h2 id="submit" >Click me to generate a random image </h2>
         <img src="" id="image" style="width: 100px;height:100px;"/>
         <script src="./nadini.js">
 
     </script> 
-     <footer>
-
-        &copy; 2019 Nandini Yadav.
-
-
-    </footer>     
-
+         
+        
 </body>
+<footer>
+
+    &copy; 2019 Nandini Yadav.
+
+
+</footer> 
 
 </html>
